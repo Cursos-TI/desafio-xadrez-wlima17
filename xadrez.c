@@ -8,8 +8,7 @@ int main() {
     // Nível Novato - Movimentação das Peças
 
     // Implementação de Movimentação do Bispo
-    
-        //Movimentação Bispo (movimento diagonal, até 5 casas)
+            //Movimentação Bispo (movimento diagonal, até 5 casas)
         int bispo = 1; // variável de controle
         while (bispo <= 5) // condição de quantidade de movimentos
         {
@@ -18,7 +17,6 @@ int main() {
         }
 
     // Implementação de Movimentação da Torre
-    
         //Movimentação Torre (movimento horizontal e vertical, até 5 casas)  
         int torre; // variável de controle
         for ( torre = 1; torre <= 5; torre++) // inicialização, condição de  controle de movimento e incremento
@@ -27,7 +25,6 @@ int main() {
         }
 
     // Implementação de Movimentação da Rainha
-    
         //Movimentação Rainha (movimento em todas as direções, até 8 casas)
         int rainha = 1; // variável de controle
         do
